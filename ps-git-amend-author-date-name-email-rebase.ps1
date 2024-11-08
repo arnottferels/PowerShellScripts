@@ -2,7 +2,7 @@
 # Automates updating author information (name, email, and date) during a Git rebase by amending each commit.
 
 $authorName = "arnottferels"
-$authorEmail = "4685389+arnottferels@users.noreply.github.com"
+$authorEmail = "64685389+arnottferels@users.noreply.github.com"
 
 # Flag to track if the rebase is completed
 while ($true) {

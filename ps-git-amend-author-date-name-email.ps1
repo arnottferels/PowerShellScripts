@@ -3,7 +3,7 @@
 
 # Set new author info
 $authorName = "arnottferels"
-$authorEmail = "4685389+arnottferels@users.noreply.github.com"
+$authorEmail = "64685389+arnottferels@users.noreply.github.com"
 
 # Preserve author date
 $authorDate = git show --no-patch --no-notes --pretty="%aD"
