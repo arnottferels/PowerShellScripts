@@ -101,6 +101,7 @@ $prettierConfig | Set-Content -Path "./.prettierrc"
 # Step 10: Create .gitignore file to ignore node_modules
 $gitignoreContent = @"
 node_modules/
+test-results/
 "@
 
 # Save the .gitignore file to the root directory
