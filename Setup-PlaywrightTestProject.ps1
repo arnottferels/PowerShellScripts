@@ -2,7 +2,7 @@
     This PowerShell script automates the setup for a Playwright testing project with Prettier formatting.
     Before running, ensure that you have:
     - Node.js and npm installed on your system.
-    
+
     If Node.js and npm are not installed, you can follow these steps:
     1. Download and install Node.js from https://nodejs.org/.
     2. Ensure npm is installed by running: `npm -v`.

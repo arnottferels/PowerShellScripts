@@ -1,3 +1,7 @@
+<#
+    Displays all environment variables and filters to show only Git-related ones.
+#>
+
 # Display all environment variables
 Get-ChildItem Env:
 

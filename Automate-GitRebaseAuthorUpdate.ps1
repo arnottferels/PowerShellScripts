@@ -1,5 +1,6 @@
-# ps-git-amend-author-date-name-email-rebase.ps1
-# Automates updating author information (name, email, and date) during a Git rebase by amending each commit.
+<#
+    Automates updating author information (name, email, and date) during a Git rebase by amending each commit.
+#>
 
 $authorName = "arnottferels"
 $authorEmail = "64685389+arnottferels@users.noreply.github.com"

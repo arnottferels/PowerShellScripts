@@ -1,5 +1,6 @@
-# ps-git-amend-author-date.ps1
-# Updates the author date for the current commit in a Git rebase without modifying the author name or email.
+<#
+    Updates the author date for the current commit in a Git rebase without modifying the author name or email.
+#>
 
 while ($true) {
   # Preserve author date

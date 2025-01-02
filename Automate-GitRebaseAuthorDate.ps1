@@ -1,5 +1,6 @@
-# ps-git-amend-author-date-rebase.ps1
-# Automates updating the author date during a Git rebase without changing the author name or email.
+<#
+    Automates updating the author date during a Git rebase without changing the author name or email.
+#>
 
 while ($true) {
   # Preserve author date
