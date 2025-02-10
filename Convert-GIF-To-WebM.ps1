@@ -20,13 +20,6 @@ foreach ($folder in $folders) {
         # Set output file path with .webm extension
         $outputFile = [System.IO.Path]::ChangeExtension($file.FullName, ".webm")
 
-        <#
-          Converting: $($file.Name)
-          Input Path: $($file.FullName)
-          Output Path: $outputFile
-          Format: WebM (VP9)
-        #>
-
         # Run FFmpeg to convert GIF to WebM (VP9)
         ffmpeg -y -i $file.FullName -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" `
                -c:v libvpx-vp9 -crf 30 -b:v 0 -pix_fmt yuv420p -an $outputFile

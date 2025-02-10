@@ -20,13 +20,6 @@ foreach ($folder in $folders) {
         # Set output file path with .mp4 extension
         $outputFile = [System.IO.Path]::ChangeExtension($file.FullName, ".mp4")
 
-        <#
-          Converting: $($file.Name)
-          Input Path: $($file.FullName)
-          Output Path: $outputFile
-          Format: MP4 (H.264)
-        #>
-
         # Run FFmpeg to convert GIF to MP4 (H.264)
         ffmpeg -i $file.FullName -vf "scale=trunc(iw/2)*2:trunc(ih/2)*2" `
                -c:v libx264 -preset slow -crf 23 -pix_fmt yuv420p `
